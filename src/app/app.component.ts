@@ -13,6 +13,9 @@ export class AppComponent {
     },
     {
       label: 'Productos'
+    },
+    {
+      label: 'Contacto'
     }
   ]
 }
