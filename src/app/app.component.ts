@@ -7,15 +7,28 @@ import {MenuItem} from 'primeng/api';
 })
 export class AppComponent {
   title = 'proyectoPrimeDari';
-  items:MenuItem[]=[
+
+  items: MenuItem[] = [];
+
+  ngOnInit() {
+
+    this.items = [
     {
-      label: 'Inicio'
+      label: 'Inicio',
+      icon: "pi pi-fw pi-pincel",
+      routerLink: "Inicio"
     },
     {
-      label: 'Productos'
+      label: 'Productos',
+      icon: "pi pi-fw pi-pincel",
+      routerLink: "Productos"
     },
     {
-      label: 'Contacto'
+      label: 'Contacto',
+      icon: "pi pi-fw pi-pincel",
+      routerLink: "Contacto"
     }
-  ]
+    ]
 }
+}
+
