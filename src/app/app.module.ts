@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { InicioComponent } from './componentes/inicio/inicio.component';
 import { ProductosComponent } from './componentes/productos/productos.component';
 import { ContactoComponent } from './componentes/contacto/contacto.component';
+import {CarouselModule} from 'primeng/carousel';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ContactoComponent } from './componentes/contacto/contacto.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MenubarModule
+    MenubarModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
